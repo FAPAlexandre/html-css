@@ -13,6 +13,7 @@
 
         body {
             background-color: lightgray;
+            background-image: url(fundo.jpg);
         }
 
         h1 {
@@ -21,16 +22,18 @@
         }
 
         input {
+
             border-radius: 5px;
             display: block;
             background-color: lightgray;
             color: black;
             margin: auto;
 
+
         }
 
         form {
-            background-color: aquamarine;
+            background-color: transparent;
             border-style: 1px solid red;
             width: 400px;
             height: 300px;
@@ -50,11 +53,11 @@
     <h1>Meu Primeiro Formulário</h1>
     <form method="post" action="cadastro.php" autocomplete="off">
         <p><label for="inome">Nome:</label>
-            <input type="text" name="nome" id="inome">
+            <input type="text" name="nome" id="inome" placeholder="Seu nome">
         </p>
 
         <p><label for="isobrenome">Sobrenome:</label>
-            <input type="text" name="sobrenome" id="isobrenome">
+            <input type="text" name="sobrenome" id="isobrenome" placeholder="Seu sobrenome">
         </p>
 
         <p>
